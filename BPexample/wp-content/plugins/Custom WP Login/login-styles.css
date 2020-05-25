@@ -1,0 +1,16 @@
+
+.login form.shake {
+    animation-iteration-count: 2;
+    border-left: #dc3232 3px solid;
+}
+@keyframes shake {
+	25% {
+		transform: translateX(-5px);
+	}
+	75% {
+		transform: translateX(5px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}

@@ -1,0 +1,93 @@
+/*
+ Theme Name:   Astra Child
+ Theme URI:    http://example.com/astra-child/
+ Description:  Astra Child Theme
+ Author:       Betsy Popek
+ Author URI:   http://example.com
+ Template:     Astra
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  astrachild
+*/
+
+
+/* .body {
+
+} */
+.custom-logo {
+    height: 78px;
+    width: auto;
+}
+.ast-site-identity {
+    height: 100px;
+}
+.ast-container .ast-article-single {
+    margin-top: 85px;
+}
+.single .entry-header {
+    margin-bottom: 10px;
+}
+.wp-block-cover .has-background-dim-20 .has-background-dim {
+    padding-top: 0px;
+    width: 100vw;
+}
+.wp-block-cover-image .wp-block-cover__inner-container, .wp-block-cover .wp-block-cover__inner-container {
+    position: absolute;
+    top: 30px;
+    line-height: 1.3;
+}
+.ast-theme-transparent-header .main-header-menu, .ast-theme-transparent-header .main-header-menu a, .ast-theme-transparent-header .ast-masthead-custom-menu-items, .ast-theme-transparent-header .ast-masthead-custom-menu-items a, .ast-theme-transparent-header .main-header-menu li > .ast-menu-toggle, .ast-theme-transparent-header .main-header-menu li > .ast-menu-toggle {
+    color: black;
+}
+.ast-container {
+    margin: 0 25px 0;
+}
+p.has-text-align-center.has-large-font-size {
+    text-shadow: 1px 1px 5px black;
+    font-size: 16px;
+}
+.homepage-intro {
+    margin: 50px 0px 15px !important;
+}
+.entry-content p {
+    margin: 0px;
+}
+.wp-block-image img {
+    margin: 30px 0px 30px;
+}
+.cc {
+    font-style: italic;
+    color: grey;
+}
+a:hover {
+    color: #617;
+}
+button {
+    background-color: #617 !important;
+}
+@media screen and (min-width: 700px) {
+    p.has-text-align-center.has-large-font-size {
+        font-size: 24px;
+    }
+    .ast-container .ast-article-single {
+        margin-top: 85px;
+    }
+}
+@media screen and (min-width: 770px) {
+        .ast-container .ast-article-single {
+        margin-top: 45px;
+    }
+}
+@media screen and (min-width: 950px) {
+    p.has-text-align-center.has-large-font-size {
+        font-size: 30px;
+    }
+
+}
+@media screen and (min-width: 1200px) {
+    p.has-text-align-center.has-large-font-size {
+        font-size: 40px;
+    }
+}
