@@ -13,8 +13,17 @@
 */
 
 
-.body {
-    margin-top: 110px;
+h3 {
+    margin: 20px auto;
+}
+.faked-gallery {
+    margin: 25px auto !important;
+}
+img.wp-image-24 {
+    margin-top: 25px;
+}
+.wp-block-image img {
+    margin: 5px 0px 5px;
 }
 .custom-logo {
     height: 78px;
@@ -23,15 +32,16 @@
 .ast-site-identity {
     height: 100px;
 }
-.ast-container {
-    margin: 0 auto; 
+#primary {
+    margin: 125px auto 0; 
 }
 .ast-container .ast-article-single {
-    margin-top: 85px;
+    margin-top: -30px;
 }
-.hero {
-    margin: 30px 45px;
+.blog-layout-1 {
+   border-bottom: 1px solid #dedede;
 }
+
 .single .entry-header {
     margin-bottom: 10px;
 }
@@ -65,7 +75,10 @@ p.has-text-align-center.has-large-font-size {
 }
 .cc {
     font-style: italic;
-    color: grey;
+    color: grey !important;;
+}
+.a.cc {
+    color: grey !important;;
 }
 a:hover {
     color: #617;
@@ -79,19 +92,18 @@ button {
         font-size: 24px;
     }
     .ast-container .ast-article-single {
-        margin-top: 85px;
+        margin-top: -30px;
     }
 }
 @media screen and (min-width: 770px) {
         .ast-container .ast-article-single {
-        margin-top: 45px;
+        margin-top: -10px;
     }
 }
 @media screen and (min-width: 950px) {
     p.has-text-align-center.has-large-font-size {
         font-size: 30px;
     }
-
 }
 @media screen and (min-width: 1200px) {
     p.has-text-align-center.has-large-font-size {

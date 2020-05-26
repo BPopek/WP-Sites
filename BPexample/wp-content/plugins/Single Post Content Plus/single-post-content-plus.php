@@ -28,7 +28,6 @@ function spcp_stylesheet() {
     // add_filter( 'spcp_load_styles', '__return_false')
 
 
-
 add_action( 'widgets_init', 'spcp_register_sidebar');
 //registers sidebar below
 
@@ -45,7 +44,6 @@ function spcp_register_sidebar() {
     )    );
 }
 
-
 //filter to check which posts to display the sidebar
 add_filter('the_content', 'spcp_display_sidebars');
 
@@ -58,6 +56,5 @@ function spcp_display_sidebars( $content ) {
     if ( is_single() && is_active_sidebar('spcp-sidebar') && is_main_query() ) {
         dynamic_sidebar( 'spcp-sidebar' );
     }
-
     return $content;
 }
