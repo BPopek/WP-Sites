@@ -1,13 +1,18 @@
 .spcp-sidebar {
     text-align: right;
     position: absolute;
-    top: 60px;
+    top: 100px;
     right: 0;
     /* padding: 25px; */
+    background-color: red;
 }
 h2.widgettitle.spcp-title {
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 400;
     font-size: 30px;
     text-transform: uppercase;
+    margin-bottom: 5px !important;
+}
+.entry-content.h2 {
+    margin-bottom: 5px !important;
 }

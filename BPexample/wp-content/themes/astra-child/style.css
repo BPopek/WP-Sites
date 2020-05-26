@@ -13,9 +13,9 @@
 */
 
 
-/* .body {
-
-} */
+.body {
+    margin-top: 110px;
+}
 .custom-logo {
     height: 78px;
     width: auto;
@@ -23,8 +23,14 @@
 .ast-site-identity {
     height: 100px;
 }
+.ast-container {
+    margin: 0 auto; 
+}
 .ast-container .ast-article-single {
     margin-top: 85px;
+}
+.hero {
+    margin: 30px 45px;
 }
 .single .entry-header {
     margin-bottom: 10px;
@@ -67,6 +73,7 @@ a:hover {
 button {
     background-color: #617 !important;
 }
+
 @media screen and (min-width: 700px) {
     p.has-text-align-center.has-large-font-size {
         font-size: 24px;
