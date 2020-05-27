@@ -55,6 +55,6 @@ function spcp_display_sidebars( $content ) {
 
     if ( is_single() && is_active_sidebar('spcp-sidebar') && is_main_query() ) {
         dynamic_sidebar( 'spcp-sidebar' );
-    }
+    } 
     return $content;
 }

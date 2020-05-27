@@ -4,14 +4,13 @@
  Description:  Astra Child Theme
  Author:       Betsy Popek
  Author URI:   http://example.com
- Template:     Astra
+ Template:     astra
  Version:      1.0.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  astrachild
 */
-
 
 h3 {
     margin: 20px auto;
@@ -26,22 +25,36 @@ img.wp-image-24 {
     margin: 5px 0px 5px;
 }
 .custom-logo {
-    height: 78px;
-    width: auto;
+    height: auto;
+    width: 90px;
+}
+.entry-content .clear {
+    margin: -115px auto 0 !important; 
 }
 .ast-site-identity {
     height: 100px;
 }
-#primary {
-    margin: 125px auto 0; 
+.ast-container {
+    margin: 0px 25px 0;
 }
+#content {
+    margin-top: 25px;
+}
+#primary {
+    margin: 0;
+}
+/* .ast-archive-description {
+    margin: -115px auto 0 !important; 
+} */
 .ast-container .ast-article-single {
-    margin-top: -30px;
+    margin-top: -10px;
 }
 .blog-layout-1 {
    border-bottom: 1px solid #dedede;
 }
-
+div.main-header-bar {
+    background-color: #d1d1d1 !important;
+}
 .single .entry-header {
     margin-bottom: 10px;
 }
@@ -56,9 +69,6 @@ img.wp-image-24 {
 }
 .ast-theme-transparent-header .main-header-menu, .ast-theme-transparent-header .main-header-menu a, .ast-theme-transparent-header .ast-masthead-custom-menu-items, .ast-theme-transparent-header .ast-masthead-custom-menu-items a, .ast-theme-transparent-header .main-header-menu li > .ast-menu-toggle, .ast-theme-transparent-header .main-header-menu li > .ast-menu-toggle {
     color: black;
-}
-.ast-container {
-    margin: 0 25px 0;
 }
 p.has-text-align-center.has-large-font-size {
     text-shadow: 1px 1px 5px black;
@@ -91,7 +101,7 @@ button {
     p.has-text-align-center.has-large-font-size {
         font-size: 24px;
     }
-    .ast-container .ast-article-single {
+    .ast-container.ast-article-single {
         margin-top: -30px;
     }
 }

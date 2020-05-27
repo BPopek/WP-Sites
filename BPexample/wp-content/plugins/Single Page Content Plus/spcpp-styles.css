@@ -1,0 +1,21 @@
+.spcpp-sidebar {
+    text-align: right;
+    position: absolute;
+    top: 42px;
+    right: 0px;
+    z-index: 2;
+}
+h2.widgettitle.spcpp-title {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+    font-size: 20px;
+    color: #617;
+    text-transform: uppercase;
+    margin-bottom: 5px !important;
+}
+.entry-content.h2 {
+    margin-bottom: 5px !important;
+}
+#cat {
+    font-size: 14px;
+}
