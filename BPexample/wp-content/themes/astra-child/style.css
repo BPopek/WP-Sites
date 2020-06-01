@@ -25,8 +25,9 @@ img.wp-image-24 {
     margin: 5px 0px 5px;
 }
 .custom-logo {
-    height: auto;
-    width: 92px;
+    height: 74px !important;
+    width: 90px !important;
+    max-width: 91px !important;
 }
 .entry-content .clear {
     margin: -115px auto 0 !important; 
@@ -96,7 +97,11 @@ a:hover {
 button {
     background-color: #617 !important;
 }
-
+@media (max-width: 544px) {
+    .ast-header-break-point .site-branding img, .ast-header-break-point #masthead .site-logo-img .custom-logo-link img {
+        max-width: 91px !important;
+    }
+}
 @media screen and (min-width: 700px) {
     p.has-text-align-center.has-large-font-size {
         font-size: 24px;
